@@ -1,0 +1,20 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "DashBoard":"npm run test -- --record --key 51c2ab82-0678-49eb-b23d-76d4128cf4b6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Alex"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.6.0",
+    "cypress-iframe": "^1.0.1"
+  }
+}
